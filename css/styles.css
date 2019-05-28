@@ -1,0 +1,192 @@
+/*
+Developer: Silas Crawford
+
+Table of Contents
+
+HEADER - Site name, main menu, search bar
+MAINCONTENT - Articles 
+FOOTER – Blog, Links, Contact, Socialise
+Color Palette
+#FFF - White
+#ff9900 - grey
+*/
+
+/*----------gs----------*/
+
+h1{
+	float: left;
+	margin: 20px 0;
+}
+
+h2{
+font-size: 3em;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+}
+/*----------header----------*/
+header{
+	color: #FFF;
+}
+
+
+
+.head_side_info{
+	float: right;
+	margin: 20px;
+}
+
+.head_side_info:visited {
+	color: #666;
+}
+
+.quot{
+	font-size: 1.8em;
+}
+
+.viv1{
+	background-color: #161616;
+	color: #ff9900;
+	float: left;
+	margin: 0 15px 50px;
+	padding: 15px 0;
+	text-align: center;
+	width: 30%;
+}
+.viv2{
+	background-color: #161616;
+	color: #ff9900;
+	float: left;
+	margin: 0 15px 50px;
+	padding: 15px 0;
+	text-align: center;
+	width: 30%;
+}
+.viv3{
+	background-color: #161616;
+	color: #ff9900;
+	float: left;
+	margin: 0 15px 50px;
+	padding: 15px 0;
+	text-align: center;
+	width: 30%;
+}
+
+.viv{
+	font-size: 1em;
+}
+
+form{
+	float: right;
+}
+
+input{
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    top: 0;
+    left: 0;
+    background-color: #222;
+}
+/*----------body----------*/
+
+body{ 
+background: #000;
+color: #666;
+ }
+
+nav{
+ 	color: #999;
+ 	color: #FFF;
+ 	text-decoration: none;
+ 	clear: both;
+ }
+
+ ul{
+	list-style-type: none;
+}
+
+ .maincontent{
+ 	text-align: center;
+}
+ .allcaps{
+	text-transform: uppercase;
+}
+
+.img1{
+float: left;
+padding: 15px 15px 0;
+width: 30%;
+}
+
+.image2{
+	float: left;
+ 	margin: 10px 10px 0px;
+}
+
+.sideContent{
+	float: left;
+	width: 33.3%;
+}
+
+.aside{
+ 	background: #FFF;
+ 	clear: both;
+ 	overflow: hidden;
+ }
+
+ nav a:hover{
+	color: #ff9900;
+}
+/*----------footer----------*/
+
+.footerContent{
+	float: left;
+	padding: 2.5%;
+	width: 20%;
+}
+footer a:hover{
+	color: #ff9900;
+}
+
+
+body { margin: 30px; }
+.head_side_info {
+  color: #aaa;
+}
+
+.head_side_info input {
+  background: #fcfcfc;
+  border-radius: 5px;
+}
+
+.head_side_info input { text-indent: 32px;}
+.head_side_info .fa-head_side_info { 
+  top: 10px;
+  left: 10px;
+}
+
+
+body { margin: 30px; }
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input {
+  width: 250px;
+  height: 32px;
+
+  background: #222;
+  border-radius: 30px;
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search { 
+  position: absolute;
+  top: 15px;
+  left: 250px;
+}

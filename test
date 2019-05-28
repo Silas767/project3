@@ -1,0 +1,103 @@
+body{ 
+background: #000;
+color: #666;
+ }
+
+.allcaps{
+	text-transform: uppercase;
+}
+
+.img1{
+float: left;
+padding: 15px 15px 0;
+width: 30%;
+}
+
+.image2{
+	float: left;
+ 	margin: 10px 10px 0px;
+ }
+
+ .aside{
+ 	background: #FFF;
+ 	clear: both;
+ 	overflow: hidden;
+ }
+ nav{
+ 	color: #999;
+ 	color: #FFF;
+ 	text-decoration: none;
+ }
+ .maincontent{
+ 	text-align: center;
+ }
+h2{
+font-size: 3em;
+}
+.quot{
+	font-size: 1.8em;
+}
+
+.sideContent{
+	float: left;
+	width: 33.3%;
+}
+ul{
+	list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+.footerContent{
+	float: left;
+	padding: 2.5%;
+	width: 20%;
+}
+h5{
+	font-size: 0.9em;
+}
+.line{
+	height: 1px;
+	width: 30px;
+}
+.viv1{
+	background-color: #161616;
+	color: #ff9900;
+	float: left;
+	margin: 0 15px 50px;
+	padding: 15px 0;
+	text-align: center;
+	width: 30%;
+}
+.viv2{
+	background-color: #161616;
+	color: #ff9900;
+	float: left;
+	margin: 0 15px 50px;
+	padding: 15px 0;
+	text-align: center;
+	width: 30%;
+}
+.viv3{
+	background-color: #161616;
+	color: #ff9900;
+	float: left;
+	margin: 0 15px 50px;
+	padding: 15px 0;
+	text-align: center;
+	width: 30%;
+}
+.viv{
+	font-size: 1em;
+}
+nav a:hover{
+	color: #ff9900;
+}
+footer a:hover{
+	color: #ff9900;
+}
+
+h1{
+	float: left;
+	margin: 20px 0;
+}
